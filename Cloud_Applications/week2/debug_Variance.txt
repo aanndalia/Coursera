@@ -1,0 +1,14 @@
+# hadoop jar TitleCount.jar TitleCount -D stopwords=/mp2/misc/stopwords.txt -D delimiters=/mp2/misc/delimiters.txt /mp2/titles /mp2/A-output 
+
+hadoop jar TopTitles.jar TopTitles -D stopwords=/mp2/misc/stopwords.txt -D delimiters=/mp2/misc/delimiters.txt -D N=5 /mp2/titles /mp2/B-output
+
+hadoop jar TopTitleStatistics.jar TopTitleStatistics -D stopwords=/mp2/misc/stopwords.txt -D delimiters=/mp2/misc/delimiters.txt -D N=5 /mp2/titles /mp2/C-output
+
+var = (sumOfSquares / N) - (mean * mean);
+
+[root@sandbox cloudapp-mp2]# hadoop fs -cat /mp2/C-output/* | sort -n -k2 -r | head -n 100
+Var     148858
+Sum     6794
+Max     1948
+Mean    1358
+Min     1020
