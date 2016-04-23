@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>itachi_forward_sprite.png</Source>
+      <Name>itachi_forward_sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\bin\x86\Debug\Content\itachi_forward_sprite.xnb</Output>
+      <Time>2013-09-16T00:56:38.0265505-04:00</Time>
+    </Item>
+    <Item>
+      <Source>itachi_jumping_sprite.png</Source>
+      <Name>itachi_jumping_sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\bin\x86\Debug\Content\itachi_jumping_sprite.xnb</Output>
+      <Time>2013-09-16T00:43:13.3805274-04:00</Time>
+    </Item>
+    <Item>
+      <Source>itachi_landing_sprite.png</Source>
+      <Name>itachi_landing_sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\bin\x86\Debug\Content\itachi_landing_sprite.xnb</Output>
+      <Time>2013-09-15T23:00:12.6150079-04:00</Time>
+    </Item>
+    <Item>
+      <Source>itachi_retreating_sprite.png</Source>
+      <Name>itachi_retreating_sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\bin\x86\Debug\Content\itachi_retreating_sprite.xnb</Output>
+      <Time>2013-09-16T00:55:26.3714521-04:00</Time>
+    </Item>
+    <Item>
+      <Source>kuchiyose_naruto_sprite.png</Source>
+      <Name>kuchiyose_naruto_sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\bin\x86\Debug\Content\kuchiyose_naruto_sprite.xnb</Output>
+      <Time>2013-09-28T07:09:31.233683-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{02D5C154-5B3B-43BB-B2C6-9A7F181ED9E5}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Coursera\Game Programming in C#\Week 2\ProgrammingAssignment2\ProgrammingAssignment2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-14T22:25:33.8365209-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Coursera\Creative_Serious_and_Playful_Science_of_Android_Apps\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\checkers1\com.python.pydev.analysis\v2_indexcache
+checkers1|1403748778929|C:\Coursera\Creative_Serious_and_Playful_Science_of_Android_Apps\workspace\checkers1\checkers1\checkers1.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=checkers1
+-- END DICTIONARY
+-- START TREE 1
+12
+!<m|0|
+P|0|
+bla|0|
+boa|0|
+dis|1|display_board!10@
+fin|1|find_occupant!10@
+ini|0|
+leg|1|legal_moves!10@
+mai|1|main!10@
+pie|0|
+pla|0|
+whi|0|
+-- END TREE
+-- START TREE 2
+16
+!<m|0|
+__i|0|
+_bl|0|
+_co|0|
+_de|0|
+_in|0|
+_ki|0|
+_na|0|
+_ro|0|
+_wh|0|
+_wi|0|
+ini|0|
+kin|0|
+mai|0|
+mak|0|
+mov|0|
+-- END TREE

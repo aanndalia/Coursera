@@ -1,0 +1,78 @@
+import sys
+
+"""
+class Piece:
+    def __init__(self, color, row, col):
+        self._color = color # we represent 0 as white and 1 as black
+        self._row = row
+        self._col = col
+        self._dead = False
+        self._king = False
+    def move(self, new_row, new_col):
+        self._row = new_row
+        self._col = new_col
+    def kingMe(self):
+        self._king = True
+    def makeDead(self):
+        self._dead = True
+        
+class Player:
+    def __init__(self, color, name):
+        self._color = color
+        self._name = name
+        self._winner = False
+    def makeWinner(self):
+        self._winner = True
+        
+class Board:
+    def __init__(self):
+        self._black_pcs = []
+        self._white_pcs = []
+        self._initialize_board()
+        
+    def _initialize_board(self):
+        # (row,col) for all black pieces initialized
+        BLACK_PIECES = [(0,0), (2,0), (4,0), (6,0), 
+                        (1,1), (3,1), (5,1), (7,1), 
+                        (0,2), (2,2), (4,2), (6,2)]
+        # (row,col) for all white pieces initialized
+        WHITE_PIECES = [(1,5), (3,5), (5,5), (7,5), 
+                        (0,6), (2,6), (4,6), (6,6), 
+                        (1,7), (3,7), (5,7), (7,7)]
+        for bp in BLACK_PIECES:
+            self._black_pcs.append(Piece(1, bp[1], bp[0]))
+            
+        for wp in WHITE_PIECES:
+            self._white_pcs.append(Piece(0, bp[1], bp[0]))
+"""
+
+def main():
+    print "yo what's up?"
+    board = {}
+    INITIAL_BLACK_SQUARES = [(0,0), (2,0), (4,0), (6,0), 
+                    (1,1), (3,1), (5,1), (7,1), 
+                    (0,2), (2,2), (4,2), (6,2)]
+    INITIAL_WHITE_SQUARES = [(1,5), (3,5), (5,5), (7,5), 
+                    (0,6), (2,6), (4,6), (6,6), 
+                    (1,7), (3,7), (5,7), (7,7)]
+
+    for square in INITIAL_BLACK_SQUARES:
+        board[square] = 'x'
+        
+    for square in INITIAL_WHITE_SQUARES:
+        board[square] = 'o'
+        
+    print board
+    
+    for i in xrange(8):
+        for j in xrange(8):
+            if (j,i) in board:
+                #print i, j
+                print board[(j,i)],
+            else:
+                print " ",
+            print " ",
+        print 
+    
+if __name__ == "__main__":
+    main()

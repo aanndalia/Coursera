@@ -1,0 +1,5 @@
+Content\itachi_forward_sprite.xnb
+Content\itachi_jumping_sprite.xnb
+Content\itachi_landing_sprite.xnb
+Content\itachi_retreating_sprite.xnb
+Content\kuchiyose_naruto_sprite.xnb

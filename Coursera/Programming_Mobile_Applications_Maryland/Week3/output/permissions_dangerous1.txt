@@ -1,0 +1,44 @@
+02-16 18:13:24.055: I/TestRunner(2282): started: testRun(course.labs.permissionslab.test.TestDangerousApp)
+02-16 18:13:24.075: I/TestRunner(2282): finished: testRun(course.labs.permissionslab.test.TestDangerousApp)
+02-16 18:13:24.075: I/TestRunner(2282): passed: testRun(course.labs.permissionslab.test.TestDangerousApp)
+02-16 18:13:25.216: I/TestRunner(2316): started: testRun(course.labs.permissionslab.test.TestDangerousApp)
+02-16 18:13:25.476: D/libEGL(2316): loaded /vendor/lib/egl/libEGL_adreno.so
+02-16 18:13:25.476: D/libEGL(2316): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+02-16 18:13:25.476: D/libEGL(2316): loaded /vendor/lib/egl/libGLESv2_adreno.so
+02-16 18:13:25.476: I/Adreno-EGL(2316): <qeglDrvAPI_eglInitialize:316>: EGL 1.4 QUALCOMM build:  (CL4169980)
+02-16 18:13:25.476: I/Adreno-EGL(2316): OpenGL ES Shader Compiler Version: 17.01.10.SPL
+02-16 18:13:25.476: I/Adreno-EGL(2316): Build Date: 09/26/13 Thu
+02-16 18:13:25.476: I/Adreno-EGL(2316): Local Branch: 
+02-16 18:13:25.476: I/Adreno-EGL(2316): Remote Branch: 
+02-16 18:13:25.476: I/Adreno-EGL(2316): Local Patches: 
+02-16 18:13:25.476: I/Adreno-EGL(2316): Reconstruct Branch: 
+02-16 18:13:25.516: D/OpenGLRenderer(2316): Enabling debug mode 0
+02-16 18:13:25.847: I/Lab-Permissions(2316): Entered startBookMarksActivity()
+02-16 18:13:27.038: I/Lab-Permissions(2316): Entered startGoToDangerousActivity()
+02-16 18:13:28.880: I/Lab-Permissions(2316): Entered startDangerousActivity()
+02-16 18:13:28.880: D/AndroidRuntime(2316): Shutting down VM
+02-16 18:13:28.880: W/dalvikvm(2316): threadid=1: thread exiting with uncaught exception (group=0x417b0898)
+02-16 18:13:28.890: E/AndroidRuntime(2316): FATAL EXCEPTION: main
+02-16 18:13:28.890: E/AndroidRuntime(2316): java.lang.SecurityException: Permission Denial: starting Intent { act=course.labs.permissions.DANGEROUS_ACTIVITY cmp=course.labs.dangerousapp/.DangerousActivity } from ProcessRecord{4364bcd8 2316:course.labs.permissionslab/u0a10324} (pid=2316, uid=10324) requires course.labs.permissions.DANGEROUS_ACTIVITY_PERM
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.os.Parcel.readException(Parcel.java:1431)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.os.Parcel.readException(Parcel.java:1385)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.ActivityManagerProxy.startActivity(ActivityManagerNative.java:2232)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1436)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.Activity.startActivityForResult(Activity.java:3464)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.Activity.startActivityForResult(Activity.java:3425)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.Activity.startActivity(Activity.java:3661)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.Activity.startActivity(Activity.java:3629)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at course.labs.permissionslab.GoToDangerousActivity.startDangerousActivity(GoToDangerousActivity.java:39)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at course.labs.permissionslab.GoToDangerousActivity.access$0(GoToDangerousActivity.java:35)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at course.labs.permissionslab.GoToDangerousActivity$1.onClick(GoToDangerousActivity.java:28)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.view.View.performClick(View.java:4475)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.view.View$PerformClick.run(View.java:18786)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.os.Handler.handleCallback(Handler.java:730)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.os.Looper.loop(Looper.java:137)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at android.app.ActivityThread.main(ActivityThread.java:5419)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at java.lang.reflect.Method.invoke(Method.java:525)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+02-16 18:13:28.890: E/AndroidRuntime(2316): 	at dalvik.system.NativeStart.main(Native Method)

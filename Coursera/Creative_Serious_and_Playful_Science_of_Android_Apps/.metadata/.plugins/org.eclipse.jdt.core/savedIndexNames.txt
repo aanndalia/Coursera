@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Coursera\Creative_Serious_and_Playful_Science_of_Android_Apps\.metadata\.plugins\org.eclipse.jdt.core
+2560599931.index
+2614919389.index

@@ -1,0 +1,19 @@
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Test Java");
+		int N=10000;
+		int sum = 0;
+		for (int i = 3*N*N*N; i > 1; i = i/2)
+		{
+		    sum++;
+		}
+		System.out.println("sum = " + sum);
+		
+	}
+
+}
